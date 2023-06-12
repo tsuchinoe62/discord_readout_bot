@@ -96,7 +96,7 @@ async def summon(ctx: ApplicationContext):
             await ctx.send("召喚できひんかった。わいのせいとちゃう。DiscordのAPIサーバーが応答せんかったんや。")
             return
 
-        text_channels[guild_id]  = ctx.channel
+        text_channels[guild_id] = ctx.channel
 
         await ctx.respond("毎度おおきに。わいは喋三郎や。/helpコマンドで使い方を表示するで。")
     else:
